@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulari d'inscripició</title>
+</head>
+<body>
+    <h3 style="text-align: center;">Formulari d'inscripició</h3>
+<form>
+    <table class="formulari">
+        <tr>
+            <td>
+                    <label for="pnom">Nom</label>
+                    <input type="text" id="pnom" name="pnom" size="8">
+                    <label for="snom">Last name</label>
+                    <input type="text" id="snom" name="snom" size="8"><br>
+                <br>
+                    <label for="dni">DNI:</label>
+                    <input type="text" id="dni" name="dni" size="10" maxlength="10"><br>
+                <br>
+                    <label for="phone">Telèfon</label>
+                    <input type="tel" id="phone" name="phone" size="9" maxlength="9"><br>
+                <br>
+                    <label for="email">Mail</label>
+                    <input type="email" id="email" name="email"><br>
+                <br>
+                    <label for="birthday">Data de naixement:</label>
+                    <input type="date" id="birthday" name="birthday"><br>
+                <br>    
+                    <label for="codipostal">Codi Postal:</label>
+                    <input type="text" id="codipostal" name="codipostal" size="5" maxlength="5"><br>
+                <br>
+                    <label for="adreça">Adreça</label>
+                    <input type="text" id="adreça" name="adreça" size="40"><br>
+                <br>
+                    <label for="titol">Sexe</label>
+                    <input type="radio" id="male" name="fav_language" value="male">
+                    <label for="male">Masculí</label>
+                    <input type="radio" id="Female" name="fav_language" value="Female">
+                    <label for="Female">Femení</label>
+                    <input type="radio" id="noindicar" name="fav_language" value="noindicar">
+                    <label for="noindicar">No ho vull indicar</label><br>
+                <br>
+                    <label for="titol">Tens alguna malaltia del cor?</label><br>
+                    <input type="radio" id="Si" name="fav_language" value="Si">
+                    <label for="Si">Si</label>
+                    <input type="radio" id="no" name="fav_language" value="no">
+                    <label for="no">No</label><br>
+                <br>
+                    <label for="titol">Tens alguna alergia? [en cas afirmatiu has d'indicar quines alèrgies tens]</label><br>
+                    <input type="radio" id="Si" name="fav_language" value="Si">
+                    <label for="Si">Si</label>
+                    <input type="radio" id="no" name="fav_language" value="no">
+                    <label for="no">No</label><br>
+                    <input type="text" id="alergia" name="alergia" size="25"><br>  
+                <br>
+                    <label for="titol">A quina de les due marxes vols participar?</label><br>
+                    <input type="radio" id="marxacurta" name="fav_language" value="marxacurta">
+                    <label for="marxacurta">Marxa curta</label>
+                    <input type="radio" id="marxallarga" name="fav_language" value="marxallarga">
+                    <label for="marxallarga">Marxa llarga</label><br> 
+                <br>
+                    <label for="puntacio">Puntuació sobre les rutes escollides enguany</label>
+                    <select id="puntacio" name="puntacio">
+                    <option value="1">1 - Muy malo</option>
+                    <option value="2">2 - Malo</option>
+                    <option value="3">3 - Regular</option>
+                    <option value="4">4 - Bueno</option>
+                    <option value="5">5 - Muy bueno</option>
+                    <option value="6">6 - Excelente</option>
+                    <option value="7">7 - Sobresaliente</option>
+                    <option value="8">8 - Excepcional</option>
+                    <option value="9">9 - Increíble</option>
+                    <option value="10">10 - Perfecto</option>
+                </select><br>
+                <br>
+                    <label for="fname">Preferència sobre les postres</label><br>
+                    <input type="checkbox" id="Fruita" name="Fruita" value="Fruita">
+                    <label for="Fruita">Fruita</label><br>
+                    <input type="checkbox" id="Flam" name="Flam" value="Flam">
+                    <label for="Flam">Flam</label><br>
+                    <input type="checkbox" id="Iogurt" name="Iogurt" value="Iogurt">
+                    <label for="Iogurt">Iogurt</label><br>
+                    <input type="checkbox" id="Pastísdexocolata" name="Pastísdexocolata" value="Pastís de xocolata">
+                    <label for="Pastísdexocolata">Pastís de xocolata</label><br>
+                <br>
+                    <label for="archivo">Insereix una foto on es vegi la transferència de pagament feta</label>
+                    <input type="file" id="archivo" name="archivo"><br>
+                    <br>
+                    <input type="submit" value="Enviar"
+            </td>
+        </tr>            
+    </table>
+</form>
+</body>
+</html>
